@@ -57,7 +57,7 @@ sleep 5
 tar -zxvf ./cf.tgz
 
 ./cf api --skip-ssl-validation $API
-./cf login -u <user> -p <password> -o <org> -s <space>
+./cf login -u <your user name> -p <your password> -o <your assigned org> -s <your assigned space>
 
 ./cf push -f manifest.yml 
 ----
